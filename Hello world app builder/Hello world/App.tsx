@@ -8,7 +8,7 @@ export default function App() {
           <h1 className="mt-4 text-5xl sm:text-7xl font-semibold tracking-tight text-red-500">
             HELLO THERE WORLD
           </h1>
-          <p className="mt-6 text-gray-400">a very cool app</p>
+          <p className="mt-6 text-gray-400">a very very cool app</p>
         </div>
       </main>
     </>
