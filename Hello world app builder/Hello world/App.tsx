@@ -6,7 +6,7 @@ export default function App() {
         <div className="text-center px-6">
           <p className="text-sm uppercase tracking-[0.3em] text-sky-400">3B</p>
           <h1 className="mt-4 text-5xl sm:text-7xl font-semibold tracking-tight">
-            HELLO AGAIN THE WORLD
+            HELLO AGAIN THE WORLD!!!
           </h1>
           <p className="mt-6 text-gray-400">a cool app</p>
         </div>
