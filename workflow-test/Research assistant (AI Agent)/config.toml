@@ -1,0 +1,6 @@
+color = "purple"
+timeout = 300
+route = "/research-agent"
+route_type = "api"
+title = "Research assistant"
+output = true
