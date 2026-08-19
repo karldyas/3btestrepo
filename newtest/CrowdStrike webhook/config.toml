@@ -1,0 +1,6 @@
+color = "red"
+output = true
+route = "/crowdstrike-alert"
+route_auth = "external_id:1mmWAQ87Vdr9JWGkbe-Hb"
+route_type = "webhook"
+title = "CrowdStrike alert webhook"
