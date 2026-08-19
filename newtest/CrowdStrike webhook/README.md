@@ -1,7 +1,7 @@
 Entry point for the workflow. Receives CrowdStrike alert/detection payloads over HTTP.
 
 - **Trigger:** `POST /crowdstrike-alert`
-- **Auth:** `external_id` — the caller must include the generated `external_id` query parameter, so CrowdStrike (or any webhook sender) can post without a 3B account. The id is minted on first save and appears in [config.toml](config.toml).
+- **Auth:** `tenant` — the caller must be an authenticated tenant member. Machine callers (e.g. a Tines story using a service account) send `Authorization: Bearer <api key>`; browsers use their session cookie. Note CrowdStrike itself cannot post directly under this mode.
 
 [script.ts](script.ts) parses the raw HTTP request, accepts either a single alert object, a bare array, or a CrowdStrike-style envelope (`resources` / `detections`), and normalizes each alert to a flat shape: `id`, `name`, `severity`, `hostname`, `device_id`, `user`, `filename`, `sha256`, `cmdline`, `created_timestamp`, plus the original object under `raw`.
 
