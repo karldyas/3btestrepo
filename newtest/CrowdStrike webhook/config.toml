@@ -1,6 +1,0 @@
-color = "red"
-output = true
-route = "/crowdstrike-alert"
-route_auth = "tenant"
-route_type = "webhook"
-title = "CrowdStrike alert webhook"
