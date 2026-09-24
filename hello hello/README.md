@@ -1,4 +1,4 @@
-A minimal one-step workflow that outputs the greeting `Hello there` when run.
+A minimal one-step workflow that outputs the greeting `Hello there` when run. Hope you like that
 
 ## Flow
 
